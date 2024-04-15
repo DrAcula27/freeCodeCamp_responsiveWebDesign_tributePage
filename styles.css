@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* END CSS RESET */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+  background-color: #ef902a;
+}
+
+body {
+  margin: 2rem;
+  background-color: #eeeddd;
+  box-shadow: 0 0 2rem 2rem #000000;
+  border-radius: 4rem;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 1.5rem auto;
+  color: #0f0f0f;
+}
+
+h1 {
+  font-size: 6rem;
+  text-shadow: 2px 2px 5px #ef902a, 2px -2px 5px #ef902a,
+    -2px 2px 5px #ef902a, -2px -2px 5px #ef902a, 2px 0px 0 #ef902a,
+    0px 2px 0 #ef902a, -2px 0px 0 #ef902a, 0px -2px 0 #ef902a;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#img-div span {
+  font-size: small;
+  font-style: italic;
+  display: block;
+  text-align: right;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: 1.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1rem;
+}
+
+th,
+td {
+  font-size: 1.5rem;
+  border: 1px solid black;
+  padding: 10px 15px;
+}
+
+th {
+  font-weight: bold;
+  background-color: rgba(239, 144, 42, 0.8);
+}
