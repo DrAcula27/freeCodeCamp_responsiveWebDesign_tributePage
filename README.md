@@ -14,10 +14,11 @@ The course/project description from their website is as follows:
 
 ## Project Requirements
 
-Build a Tribute Page
-Objective: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks. Do not copy this demo project.
+**Objective**:
 
-User Stories:
+Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks. Do not copy this demo project.
+
+**User Stories**:
 
 - [x] Your tribute page should have a main element with a corresponding id of main, which contains all other elements
 - [x] You should see an element with an id of title, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
