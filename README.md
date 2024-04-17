@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-[Survey Form](https://dracula27.github.io/freeCodeCamp_responsiveWebDesign_tributePage/)
+[Tribute Page](https://dracula27.github.io/freeCodeCamp_responsiveWebDesign_tributePage/)
 
 ## Project Information
 
